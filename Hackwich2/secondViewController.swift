@@ -10,6 +10,7 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var FirstLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,6 +24,9 @@ class secondViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.blue
         
+      self.FirstLabel.text = "Hello World"
+      
+        //how to set text in UI label swift
     }
     /*
     // MARK: - Navigation
